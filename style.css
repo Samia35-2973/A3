@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*header*/
+
+
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.navbar{
+	width: 100%;
+	padding: 50px 0;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	padding: 0 30px;
+	display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:#626262;
+	text-transform: uppercase;
+}
+
+/*banner*/
+.banner{
+	margin: 0 auto;
+	width: 100%;
+}
+.bannerimg{
+	width:100%;
+}
+.bannerimg img{
+	width: 100%;
+	margin: 0 auto;
+}
+.partition{
+	width: 90%;
+	margin: 0 auto;
+}
+.partition .left{
+	width: 60%;
+	float: left;
+}
+.partition .left h5{
+	text-transform: uppercase;
+	color: #626262;
+	padding: 60px 0 20px 0;
+}
+.partition .left h1{
+	font-size: 28px;
+	color: #626262;
+	
+}
+.partition .left p{
+	font-size: 15px;
+	color: #626262;
+	padding: 30px 0;
+}
+.partition .right{
+	width: 30%;
+	float: right;
+	padding-top: 60px;
+	display: block;
+}
+.partition .right img{
+	width: 100%;
+	float: right;
+	padding: 10px;
+}
+.partition .right h2{
+	color: #626262;
+	float: left;
+	display: block;
+	padding: 30px 0 0 0;
+}
+.partition .right p{
+	font-size: 13px;
+	color: #626262;
+	padding: 10px 0;
+	display: block;
+	float: left;
+}
+.partition .right i{
+	float: left;
+	padding: 10px;
+	color: #626262;
+}
+.gallery{
+	width: 90%;
+	margin: 30px auto;
+}
+.gallery .left{
+	width: 55%;
+	float: left;
+	padding-left: 50px;
+	
+}
+.gallery .left img{
+	padding: 30px 0;
+	width: 100%;
+	float: left;
+}
+.gallery .left .quotes{
+	font-style: italic;
+	color: #626262;
+	font-size: 13px;
+	padding:  20px 30px;
+}
+.gallery .left p{
+	color: #656565;
+	font-size: 15px;
+
+}
+.gallery .right{
+	width: 30%;
+	float: right;
+	padding-top: 60px;
+	display: block;
+}
+.gallery .right h3{
+	color: #626262;
+	text-transform: uppercase;
+	float: left;
+	font-weight: 300;
+	font-size: 14px;
+	display: block;
+}
+.gallery .right ul{
+	float: left;
+	display: block;
+}
+.gallery .right ul li{
+	padding: 20px;
+	float: left;
+}
+.gallery .right ul li a{
+	text-decoration: none;
+	color: #626262;
+}
+.gallery .right ul li a span{
+	color: #BBBFC2;
+}
+.gallery .social-icons{
+	padding:20px;
+	color: #626262; 
+	float: left;
+	display: block;
+}
+.example{
+	width: 100%;
+	background-color: #656565;
+	display: inline-block;
+	margin: 60px 0;
+	height: 350px;
+}
+.example h3{
+	text-transform: uppercase;
+    display: block;
+    color: #2e2b2b;
+    font-size: 17px;
+    padding: 48px 0 0 100px;
+
+}
+.row{
+	width: 90%;
+	margin: 20px auto;
+	display: block;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 21px;
+  margin: 0 0 0 20px;
+}
+
+
+/*comment*/
+
+
+.comment{
+	width: 100%;
+	margin: 0 auto;
+}
+.comment .all{
+	width: 90%;
+	margin: 0 auto;
+	float: left;
+}
+.all h5{
+	margin-left: 100px;
+    color: #2e2b2b;
+}
+.com1{
+	width: 80%;
+	margin: 40px auto;
+}
+.com1 .left{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+}
+.com1 .left img{
+	border-radius: 50%;
+    float: left;
+    width: 40%;
+    height: 69px;
+    margin-left: -17px;
+
+}
+.com1 .right{
+	width: 78%;
+	float: left;
+	margin-left: -75px;
+}
+.com1 .right h6{
+	font-weight: 800;
+	float: left;
+	font-size: 14px;
+}
+.com1 .right p{
+	margin-top: 25px;
+	font-size: 12px;
+	color: #626262; 
+}
+.com1 .right input{
+	border: none;
+	outline: none;
+	margin-top: 8px;
+	width:100%;
+}	
+
+
+
+
+
+
+
+
+
+
+.com2{
+	width: 80%;
+	margin: 40px auto;
+}
+.com2 .left{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+.com2 .left img{
+	border-radius: 50%;
+    float: left;
+    width: 40%;
+    height: 69px;
+    margin-left: -17px;
+}
+.com2 .right{
+	width: 78%;
+	float: left;
+	margin-left: -75px;
+	margin-top: 50px;
+}
+.com2 .right h6{
+	font-weight: 800;
+	float: left;
+	font-size: 14px;
+}
+.com2 .right p{
+	margin-top: 25px;
+	font-size: 12px;
+	color: #626262; 
+}
+.com2 .right input{
+	border: none;
+	outline: none;
+	margin-top: 8px;
+	width:100%;
+}	
+
+
+
+.own{
+	width: 80%;
+	margin: 40px auto;
+}
+.own .left{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+.own .left img{
+	border-radius: 50%;
+    float: left;
+    width: 40%;
+    height: 69px;
+    margin-left: -17px;
+}
+.own .right{
+	width: 78%;
+	height: 100%;
+	float: left;
+	margin-left: -75px;
+	margin-top: 70px;
+}
+.own .right .row100 .col .inputBoxtextarea{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	margin: 50px auto;
+	display: block;
+}
+.footer .sec{
+	display: block;
+} 
