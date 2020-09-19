@@ -332,8 +332,8 @@
 }
 .footer{
 	width: 100%;
-	margin: 50px auto;
-	display: block;
+	padding: 30px;
+	display: flow-root;
 }
 .footer .sec{
 	display: block;
